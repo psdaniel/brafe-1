@@ -266,3 +266,99 @@ h2.produtos-mineiro::before {
 }
 
 /* Assine */ 
+
+.assine {
+  background: #e7e4d8;
+  padding: 30px 0;
+}
+
+.assine-container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.assine-container::after, .assine-container::before {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.assine-info {
+  width: 460px;
+  margin: 0 10px;
+  float: left;
+}
+
+.assine-info h2 {
+  font-size: 2.25em;
+}
+
+.assine-info p {
+  font-size: 1.5em;
+  font-style: italic;
+}
+
+.assine form {
+  width: 460px;
+  margin: 10px 10px 0 10px;
+  float: left;
+}
+
+.assine form label {
+  display: none;
+}
+
+.assine input {
+  box-sizing: border-box;
+  width: 320px;
+  border: 3px solid #252525;
+  background: none;
+  font-size: 1.5em;
+  font-style: italic;
+  font-family: Georgia, serif;
+  padding: 10px;
+  float: left;
+}
+
+.assine button {
+  background: #252525;
+  border: none;
+  font-family: Georgia, serif;
+  text-transform: uppercase;
+  font-size: 1.5em;
+  width: 140px;
+  padding: 13px 0;
+  color: #fff;
+  cursor: pointer;
+}
+
+/*Footer*/
+
+.footer {
+  background: #d6d3c8;
+  padding: 40px 0;
+}
+
+.footer-container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.footer-container::after, .footer-container::before {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.footer p {
+  float: left;
+  margin: 0 10px;
+  font-size: 1.125em;
+  line-height: 1.4em;
+}
+
+.footer img {
+  float: right;
+  margin: 0 10px;
+  display: block;
+}
